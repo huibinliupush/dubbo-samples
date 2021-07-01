@@ -30,4 +30,5 @@
     <dubbo:monitor protocol="registry" interval="100"/>
 
     <dubbo:reference id="demoService" check="false" interface="org.apache.dubbo.samples.monitor.api.DemoService"/>
+
 </beans>
